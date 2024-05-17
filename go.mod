@@ -3,9 +3,7 @@ module app
 go 1.22
 
 require (
-	git.fxt.cn/ec/ac-search v0.0.3
 	github.com/ClickHouse/clickhouse-go/v2 v2.6.0
-	github.com/elastic/go-elasticsearch/v7 v7.8.0
 	github.com/gin-gonic/gin v1.6.3
 	github.com/globalsign/mgo v0.0.0-20181015135952-eeefdecb41b8
 	github.com/joho/godotenv v1.3.0
