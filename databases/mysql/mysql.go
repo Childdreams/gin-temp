@@ -1,3 +1,7 @@
+// MySQL 数据库连接管理包。
+//
+// 通过 init() 自动连接数据库、配置连接池、执行自动迁移。
+// 连接成功后可通过 Db 全局变量使用 GORM 实例。
 package mysql
 
 import (
@@ -10,8 +14,10 @@ import (
 	"time"
 )
 
+// Db 是全局 GORM 数据库实例，由 init() 初始化。
 var Db *gorm.DB
 
+// 数据库连接配置，由环境变量（.env）注入。
 var (
 	DbUsername string
 	DbPassword string

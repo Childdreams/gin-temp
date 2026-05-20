@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(go mod *)",
+      "Bash(go version *)",
+      "Bash(go build *)",
+      "Bash(brew unlink *)",
+      "Bash(brew link *)",
+      "Bash(go vet *)",
+      "Read(//Users/baofeng/**)"
+    ]
+  }
+}
